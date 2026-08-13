@@ -1,0 +1,7 @@
+# Install torch SEPARATELY first, matched to your CUDA version, e.g.:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+# Then:
+xgrammar>=0.2.3
+transformers>=4.44
+numpy
+matplotlib
